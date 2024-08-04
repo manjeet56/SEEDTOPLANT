@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>seedtoplant web</title>
+   
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+      // function test()
+      // {
+      // //   // window.location("https://www.google.co.in");
+      // }
+      // var x = confirm("click to proceed")
+      // if(x){
+      //   window.location="https://seedtoplant.in/";
+      // }else{
+      //   alert("action aborted");
+      // }
+      // function test(){
+      //   var age = prompt("enter ur age")
+      //   if(age> 60){
+      //      document.write("<HR> umar zyada hai <HR>")
+      //   }else if(age>40){
+      //     document.write("<HR> mrega jldi <HR>")
+      //   }
+      //   else{
+      //     document.write("chla ja")
+      //   }
+      // }
+    </script>
+    <style>
+.flip-box {
+  background-color: transparent;
+  width: 254px;
+  height: 350px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  color: black;
+}
+
+.flip-box-back {
+  height: 400px;
+  background-color: yellow;
+    transform: rotateY(180deg);
+}
+</style>
+  </head>
+  <body onload="test()">
+    <section>
+    <div class="container">
+        <h1 style="text-align: center;">WHAT WE DO?</h1>
+        <Div class="row">
+            <div class="col-md-6">
+            <!-- IMAGE -->
+            <img src="https://www.seedtoplant.in/assets/img/Activity%20Picture.png" alt="" width="100%" class="img-fluid">
+            </div>
+            <div class="col-md-6 p-5">
+                <!-- TEXT -->
+                 <p>We at <span style="color: black; font-size: large;font-weight: bolder;">Seed to Plant </span> believe that every child needs a vibrant and motivating environment and we need to empower parents and teachers to provide such an experience.</p>
+                 <p>As an education content company we focus on creating meaningful learning experiences presented in the form of study materials for students and facilitators. We also provide training and support to teachers for its successful implementation</p>  
+                </div>
+                </DIV>
+        <DIV class="row mt-5">
+            <div class="col-md-6 p-3" >
+            <!-- TEXT -->
+             <h2 style="font-size: 22px; color: #444444;">Understanding Thematic Integrated Learning:</h2>
+             <ul>
+               <li><p>Designing and implementing integrated thematic units for young children is a developmentally appropriate practice which is supported by both brain research and the psychology of learning.</p>
+            </li> 
+               <li><p>Thematic units greatly enhance learning because they integrate different intelligences and topics into a single lesson which mirrors how young children actually learn.</p>
+            </li> 
+               <li><p>Finally, integrated thematic units make learning and teaching a lot of fun for teachers and children!</p>
+            </li> 
+            </ul>
+            </div>
+            <div class="col-md-6">
+                <!-- IMAGE -->
+                 <img src="https://www.seedtoplant.in/assets/img/about.jpg" alt="" class="img-fluid">
+                </div>
+        </DIV>
+        </div>
+        </section>
+        <section class="bg-warning">
+            <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-1" ></div>
+        <div class="col-md-3 p-4 ps-5"data-aos="fade-right">
+      <img src="https://www.seedtoplant.in/assets/img/Unique%20Features.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-8 mt-5"data-aos="fade-left">
+            <h4>UNIQUE FEATURES</h4>
+            <ul style="list-style:none">
+                <li><i class="bi bi-check-lg"></i> Focus on reading and writing readiness</li>
+                <li ><i class="bi bi-check-lg"></i> Importance to play</li>
+                <li><i class="bi bi-check-lg" ></i> Emphasis on creative thinking</li>
+                <li><i class="bi bi-check-lg" ></i> Focus on self expression</li>
+                <li><i class="bi bi-check-lg" ></i> Differentiated Learning</li>
+                <li><i class="bi bi-check-lg" ></i> Skill based, Thematic and Integrated</li>
+                <li><i class="bi bi-check-lg" ></i> Divided into parts to reduce bag load</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="container">
+            <h4 style="text-align: center; margin-top: 20px;"><span style="border-bottom: 4px solid yellow;">WHY US?</span></h4>
+            <div class="row">
+            <div class="col-md-8"data-aos="fade-right">
+              <div class="row">
+                <div class="col-md-10">
+            <ul style="list-style: none;">
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> A 360 degree support by our expert team for a smooth implementation</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Detailed planners and facilitators manuals  for facilitation.</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 24x7 online support for facilitators</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 6 days training support for professional development of facilitators</li>
+            </ul>
+                </div>
+                <div class="col-md-2" >
+                  <img src="https://pngimg.com/d/question_mark_PNG44.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <h4 style="font-size: larger;">We provide an unmatched quality of curriculum for your school:</h4>
+            <ul style="list-style: none;">
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i>  High quality research-based integrated content based on NEP that gives you a competitive advantage.</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Focus on language development through a story-based approach</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Catering to different learning styles</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Emphasis on creative and critical thinking</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Development of emotional intelligence</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Opportunities for self-exploration</li>
+                <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Emphasis on reducing the load of school bag</li>
+            </ul>
+            </div>
+            <div class="col-md-4"data-aos="fade-left">
+            <img src="https://www.seedtoplant.in/assets/img/Why%20Us.jpg" alt="" class="img-fluid">
+            </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #d6f7f8;">
+        <div class="container">
+            <h2 style="text-align: center; padding-top: 20px;"><span style="border-bottom: 4px solid yellow; ">PRODUCTS</span></h2>
+            <div class="row bg-light mt-5">
+                <div class="col-md-4 p-4 border-start shadow" data-aos="zoom-in-up">
+                  <h5 style="font-size: large; text-align: center; background-color: #ffc107;">SEED (8 BOOKS+FINE MOTOR </br>ACTIVITY KIT)</h5>
+                  <p style="text-align: center;">Pre-Nursery</p>
+                  <ul style="list-style: none;">
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 2 Story books</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 2 Theme books</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Write and Wipe book</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Book for Creative Expression</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Beej Akshar ke</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 My First Writing Book</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Fine Motor Activity Kit</li>
+                  </ul>
+                  <h5 style="font-size: large; text-align: center; background-color: #ffc107;">SEEDLING (8 BOOKS)</h5>
+                  <p style="text-align: center;">Pre Primary 1</p>
+                  <ul style="list-style: none;">
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 4 Theme Books</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i>  2 Fun Books for Home</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Pattern Book</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i>  1 Book for Creative Expression</li>
+                    </ul>
+                  <h5 style="font-size: large; text-align: center; background-color: #ffc107;">SAPLING (13 BOOKS)</h5>
+                  <p style="text-align: center;">Pre Primary 2</p>
+                  <ul style="list-style: none;">
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 4 Theme Books</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i>  4 Introduction Books for Hindi</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 2 Fun Books for Home</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Pattern Book</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Book for Self Expression</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Book for Creative Expression</li>
+                    </ul>
+                    <img src="https://www.seedtoplant.in/assets/img/Seedling.png" alt="" class="img-fluid" style="width: 80%;">
+                </div>
+                <div class="col-md-4 p-4 border-start shadow"data-aos="zoom-in-up">
+                  <h5 style="font-size: large; text-align: center; background-color: #ffc107;">SEED (8 BOOKS+FINE MOTOR </br>ACTIVITY KIT)</h5>
+                  <p style="text-align: center;">Pre-Nursery</p>
+                  <ul style="list-style: none;">
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 2 Story books</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 2 Theme books</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Write and Wipe book</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Book for Creative Expression</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Beej Akshar ke</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 My First Writing Book</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Fine Motor Activity Kit</li>
+                  </ul>
+                  <img src="https://www.seedtoplant.in/assets/img/Tinker%20Blooms%20copy.png" alt="" class="img-fluid" style="width: 80%;">
+                </div>
+                <div class="col-md-4 p-4 border-start shadow"data-aos="zoom-in-up">
+                  <h5 style="font-size: large; text-align: center; background-color: #ffc107;">SEED (8 BOOKS+FINE MOTOR </br>ACTIVITY KIT)</h5>
+                  <p style="text-align: center;">Pre-Nursery</p>
+                  <ul style="list-style: none;">
+                    <li><i class="bi bi-check-lg"style="color: #ffc107;"></i> 2 Story books</li>
+                    <li><i class="bi bi-check-lg"style="color: #ffc107;"></i> 2 Theme books</li>
+                    <li><i class="bi bi-check-lg"style="color: #ffc107;"></i> 1 Write and Wipe book</li>
+                    <li><i class="bi bi-check-lg"style="color: #ffc107;"></i> 1 Book for Creative Expression</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> 1 Beej Akshar ke</li>
+                    <li><i class="bi bi-check-lg"style="color: #ffc107;"></i> 1 My First Writing Book</li>
+                    <li><i class="bi bi-check-lg" style="color: #ffc107;"></i> Fine Motor Activity Kit</li>
+                  </ul>
+                  <img src="https://www.seedtoplant.in/assets/img/Boy%20copy.png" alt="" class="img-fluid" style="width: 80%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="whoWeAre mb-5 mt-5" >
+      <div class="container">
+        <div class="OurCoreTeam" >
+        <h4 style="text-align: center; color: #c46328;">WHO WE ARE?</h4>
+        <h5>Advisors</h5>
+        <div class="row mt-3"data-aos="fade-up"
+        data-aos-duration="1000">
+          <div class="col-md-3 p-3">
+            <div class="card flip-box" style="width: 18rem;">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+              <img src="https://www.seedtoplant.in/assets/img/Aaron.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"style="text-align:center">Aaron Eden</h5>
+                <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                  </p>
+              </div>
+              </div>
+              <div class="flip-box-back" style="background-color: #ffc107;">
+                <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                  high school experience. He has been designing and facilitating novel learning
+                  experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-3 p-3"data-aos="fade-up"
+          data-aos-duration="1000">
+            <div class="card flip-box" style="width: 18rem;">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+              <img src="https://www.seedtoplant.in/assets/img/sanne.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"style="text-align:center">Saane van Oort</h5>
+                <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                  </p>
+              </div>
+              </div>
+              <div class="flip-box-back" style="background-color: #ffc107;">
+                <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                  high school experience. He has been designing and facilitating novel learning
+                  experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-3 p-3">
+          </div>
+          <div class="col-md-3 p-3"></div>
+        </div>
+        </div>
+        <div class="OurCoreTeam mt-5" >
+          <h5>Our Core Team</h5>
+          <div class="row mt-3">
+            <div class="col-md-3 p-3"data-aos="fade-up"
+            data-aos-duration="1000">
+              <div class="card flip-box" style="width: 18rem;">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                <img src="https://www.seedtoplant.in/assets/img/Anuradha%20Sinha.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"style="text-align:center">Aaron Eden</h5>
+                  <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                    </p>
+                </div>
+                </div>
+                <div class="flip-box-back" style="background-color: #ffc107;">
+                  <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                    high school experience. He has been designing and facilitating novel learning
+                    experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-3 p-3"data-aos="fade-up"
+            data-aos-duration="1000">
+              <div class="card flip-box" style="width: 18rem;">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                <img src="https://www.seedtoplant.in/assets/img/Priya%20Jain.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"style="text-align:center">Priya jain</h5>
+                  <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                    </p>
+                </div>
+                </div>
+                <div class="flip-box-back" style="background-color: #ffc107;">
+                  <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                    high school experience. He has been designing and facilitating novel learning
+                    experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-3 p-3"data-aos="fade-up"
+            data-aos-duration="1000">
+              <div class="card flip-box" style="width: 18rem;">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                <img src="https://www.seedtoplant.in/assets/img/shakeel.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"style="text-align:center">Shakeel Ahmad</h5>
+                  <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                    </p>
+                </div>
+                </div>
+                <div class="flip-box-back" style="background-color: #ffc107;">
+                  <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                    high school experience. He has been designing and facilitating novel learning
+                    experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-3 p-3"data-aos="fade-up"
+            data-aos-duration="1000">
+              <div class="card flip-box" style="width: 18rem;">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                <img src="https://www.seedtoplant.in/assets/img/Naveen%20Sharma.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"style="text-align:center">Naveen Sharma</h5>
+                  <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                    </p>
+                </div>
+                </div>
+                <div class="flip-box-back" style="background-color: #ffc107;">
+                  <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                    high school experience. He has been designing and facilitating novel learning
+                    experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-3 p-3" data-aos="fade-up"
+            data-aos-duration="1000">
+              <div class="card flip-box" style="width: 18rem;">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                <img src="https://www.seedtoplant.in/assets/img/Kiran%20Uppal.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"style="text-align:center">Kiran Uppal</h5>
+                  <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                    </p>
+                </div>
+                </div>
+                <div class="flip-box-back" style="background-color: #ffc107;">
+                  <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                    high school experience. He has been designing and facilitating novel learning
+                    experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-3 p-3"data-aos="fade-up"
+            data-aos-duration="1000">
+              <div class="card flip-box" style="width: 18rem;">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                <img src="https://www.seedtoplant.in/assets/img/SUdhanshu%20Jain.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"style="text-align:center">Sudhanshu Jain</h5>
+                  <p style="text-align: center;"><a href="#"><i class="bi bi-linkedin"></i></a>
+                    </p>
+                </div>
+                </div>
+                <div class="flip-box-back" style="background-color: #ffc107;">
+                  <p style="text-align: center;">Aaron Eden has been transforming education since way back when he hacked his own
+                    high school experience. He has been designing and facilitating novel learning
+                    experiences for and with others ever since. In addition to being a leading voice in equity- <a href="">..read more</a> <br><i class="bi bi-linkedin"></i></p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+          </div>
+        </div>
+    </section>
+    <section style="background-color: #213b52;" class="h-100">
+      <div class="container pt-4">
+        <h4 style="text-align: center; color: yellow;"class=""><span class="border-bottom ">CONTACT US</span></h4>
+        <div class="row mt-4 h-100">
+          <div class="col-md-6">
+          <div class="row">
+           <div class="col-md-12 box bg-light p-2" style="max-width: 100%; height: 100%;"data-aos="fade-up"
+           data-aos-anchor-placement="center-bottom"data-aos-duration="2000">
+            <p style="text-align: center; font-size: larger;"><i class="bi bi-geo-alt"style="color: #ffc107; font-waight:bolder;"></i></p>
+            <h4 style="text-align: center;">Our Address</h4>
+            <p style="text-align: center;">Rattle to Rocket Education Private Ltd<br>
+              Seed to Plant</p>
+              <p style="text-align: center;">Plot No. 32, Chandan Hola Ext, Main Chattarpur Road,<br>
+                Chattarpur, Delhi 110074</p>
+           </div>
+          </div>
+          <div class="row mt-4">
+          <div class="col-md-4 mb-4"data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"data-aos-duration="2000">
+            <div class="box bg-light p-3" style="height: 100%; max-width: 100%;">
+              <p style="text-align: center; font-size: larger;"><i class="bi bi-envelope-at" style="color: #ffc107;"></i></p>
+           <h5 style="text-align: center;">Email Us</h5>
+           <p style="text-align: center;">seedtoplantinfo<br>@gmail.com</p>
+          </div>
+          </div>
+          <div class="col-md-4 mb-4"data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"data-aos-duration="2000">
+            <div class="box bg-light p-3" style="height: 100%; max-width: 100%;">
+              <p style="text-align: center; font-size: larger;"><i class="bi bi-geo-alt" style="color: #ffc107;"></i></p>
+           <h5 style="text-align: center;">Address</h5>
+           <p style="text-align: center;">Plot No. 32, Chandan Hola Ext, Main Chattarpur Road,</p>
+          </div>
+          </div>
+          <div class="col-md-4 mb-4"data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"data-aos-duration="2000"> 
+            <div class="box bg-light p-3 gap-3" style="height: 100%; max-width: 100%;">
+              <p style="text-align: center; font-size: larger;"><i class="bi bi-telephone-inbound"style="color: #ffc107;"></i></p>
+            <h5 style="text-align: center;">Call Us</h5>
+            <p style="text-align: center;">+91-7982510152<br>
+
+              <span style="font-weight: bold;">Whatsapp</span>+91-7982510152</p>
+          </div>
+          </div>            
+          </div>
+          </div>
+          <div class="col-md-6 "data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"data-aos-duration="2000">
+          <div class="box p-3 mb-5  bg-light">
+            <form style="text-align: center; height: 300px;">
+              <div class="container mt-4">
+              <div class="row">
+                <!-- <div class="col-1"></div> -->
+                <input type="text" placeholder="Name" class="mb-3 col-6 w-50">
+                <input type="email" placeholder="Email" class="mb-3 col-6 w-50">
+               <!-- <div class="col-1"></div> -->
+              </div>
+              </div>
+              <input type="text" placeholder="Subject" class="mb-3 w-100">
+              
+              <textarea name="" id="" placeholder="Mesaage" class="w-100 pb-4"rows="5"></textarea>
+              <button class="btn btn-warning mt-4">Submit</button>
+              <!-- <button onclick="javascript:window.alert('hello')">Submit</button>
+              <button onclick="javascript:window.history.go(0)">Submit</button>
+              <button onclick="javascript:window.history.go(-1)">Submit</button>
+              <button onclick="javascript:window.close()">Submit</button> -->
+              <button onclick="test()">test</button>
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="p-4" style="background-color: #1a2e40;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+           <p style="text-align: center; color: white;">© Copyright . All Rights Reserved</p>
+          </div>
+          <div class="col-md-6"></div>
+          <div class="col-md-3">
+          <p style="text-align: center; color: white;">Powered by <span style="color: #ffc107;">Manjeet Mishra</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+     <script src="js/wow.min.js"></script>
+     <script>
+     new WOW().init();
+     </script>
+  </body>
+</html>

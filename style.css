@@ -1,0 +1,175 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.box2{
+  width: 100%;
+}
+hr {
+  margin-top: 40px;
+  margin-left: -110px;
+}
+.hr {
+  margin-top: -2px;
+  margin-left: 630px;
+}
+.box1 {
+  width: 100%;
+}
+.img1 {
+  margin-top: 4rem;
+  width: 40%;
+  margin-left: 80px;
+
+}
+.img2 {
+  width: 40%;
+  margin-left: 43rem;
+  margin-top: 8.5rem;
+}
+.para {
+  margin-top: -22rem;
+  margin-left: 820px;
+  display: block;
+  text-align: start;
+  width: 500px;
+  font-size: 1 rem;
+  line-height: 1.9rem;
+  font-weight: 400;
+}
+.para1 {
+  margin-top: -19rem;
+  margin-left: 10rem;
+  display: block;
+  text-align: start;
+  width: 500px;
+  font-size: 1.5 rem;
+  line-height: 1rem;
+  font-weight: 400;
+}
+li{
+    width: 600px;
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 358px) {
+    .img1{
+        margin-top: 2rem;
+        width: 90%;
+        margin-left: 1rem;
+        height: 250px;
+    }
+    .para{
+        margin-left: 1rem;
+        margin-top: 2rem;
+        width: 350px;
+    }
+    .img2{
+        margin-top: 2rem;
+        width: 90%;
+        margin-left: 1rem;
+        height: 250px;
+    }
+    .para1{
+        margin-left: -1rem;
+        margin-top: 2rem;
+        width: 350px;
+    }
+    li{
+        width: 300px;
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width: 568px){
+    .img1{
+        width: 95%;
+        height: 300px;
+    }
+    .img2{
+        width: 95%;
+        height: 300px;
+    }
+    .para{
+      margin-right: 2rem;
+      width: 550px;
+    }
+    .para1{
+        margin-left: -1rem;
+    }
+    li{
+        width: 500px;
+        margin-left: 2rem;
+    }
+}
+
+
+
+@media screen and (min-width: 768px){
+    .img1{
+        width: 96%;
+        height: 350px;
+    } 
+    .para{
+        margin-right: 2rem;
+        width: 750px;
+      }
+      .img2{
+        width: 96%;
+        height: 350px;
+    } 
+    .para1{
+        margin-left: 3rem;
+    }
+    li{
+        width: 700px;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .img1{
+        width: 550px;
+        height: 350px;
+    } 
+    .para{
+        margin-left: 4rem;
+        width: 900px;
+      }
+      .img2{
+        width: 96%;
+        height: 500px;
+        margin-top: -20rem;
+    } 
+  
+    li{
+        width: 600px;
+        margin-left: 7rem;
+        font-size: 18px;
+        
+    }
+    
+    
+     .img1{
+        margin-top: 2rem;
+        margin-left: 9rem;
+     }
+     .para{
+        width: 500px;
+        margin-left: 48rem;
+        margin-top: -19rem;
+        font-size: 21px;
+     }
+     .img2{
+        width: 550px;
+        height: 350px;
+        margin-top: 5rem;
+        margin-left: 48rem;
+     }
+     .para1{
+       margin-left: 6rem;
+       margin-top: -20rem;
+       font-size: 20px;
+       width: 500px;
+ }
+} */
